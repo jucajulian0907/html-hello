@@ -1,0 +1,39 @@
+body {
+    background: rgb(218, 215, 215);
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 400px;
+}
+
+section {
+    background: #f5f1e9;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(59,54,59,1);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(59,54,59,1);
+    box-shadow: 3px 3px 5px 0px rgba(59,54,59,1);
+}
+
+img {
+    
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    gap: 5px;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 10px;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+}
